@@ -1,0 +1,80 @@
+.sidebar__header {
+  width: 380px;
+  height: 65px;
+  display: flex;
+  background-color: #202c33;
+  position: fixed;
+  padding: 8px;
+  top: 0;
+}
+.sidebar__headerRight {
+  display: flex;
+  height: 60px;
+  min-width: 10vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar__headerRight>.MuiSvgIconRoot{
+  width: 2vh;
+  font-size: 24px !important;
+}
+.status,
+.chat,
+.menu {
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+}
+.sidebar__search {
+  display: flex;
+  align-items: center;
+  height: 49px;
+  padding: 10px;
+  width: 380px; 
+  top: 65px; 
+  left: 0; 
+  position: fixed; 
+  background-color: #1a252c;
+}
+.sidebar__searchContainer{
+  display: flex;
+  background-color: aliceblue;
+  height: 35px;
+  width: 380px;
+  border-radius: 20px;
+}
+.sidebar__searchContainer>input{
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  background-color: aliceblue;
+}
+.sidebar__searchContainer>.MuiSvgIconRoot{
+  color: gray;
+  padding: 10px;
+}
+/* .sidebar__chats{
+  background-color: aquamarine;
+} */
+.sidebar{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.chats{
+  display: flex;
+  flex-direction: column;
+  height:calc(100vh - 100px);
+  padding: 10px;
+  width: 380px; 
+  top: 115px; 
+  flex: 1;
+  left: 0; 
+  position: fixed;  
+  overflow: hidden;
+ background-color: #1a252c;
+ color: whitesmoke;
+}

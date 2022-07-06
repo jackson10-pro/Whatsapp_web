@@ -1,0 +1,14 @@
+.message-list{
+background-color: #111b21;
+width:  var(--aside-section-width);
+height: 100%;
+}
+.message-view{
+  background-color:#222e35;
+  width: calc(100% - var(--aside-section-width));
+  height: 100%;
+}
+.message-list,.message-view{
+  display: inline-block;
+}
+
